@@ -12,6 +12,8 @@ Array.from(radioGaleria).forEach((radio) => {
                 } else if (radio.classList.contains("radioAprovado")) {
                     image.style.display = image.classList.contains("aprovado") ? "block" : "none";
                 }
+                
+                
                 // Mostra só desaprovados
                 else if (radio.classList.contains("radioDesaprovado")) {
                     image.style.display = image.classList.contains("desaprovado") ? "block" : "none";
