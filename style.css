@@ -226,12 +226,12 @@ nav img {
 
 .sectionAmarela {
     width: 100%;
-    height: 50vh;
     background-color: #fcdc00;
     display: flex;
     padding: 5% 20%;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -245,6 +245,7 @@ nav img {
 .divFeedback {
     height: 15vh;
     width: 450px;
+    margin-bottom: 30px;
 }
 
 .divFeedback h1 {
@@ -261,10 +262,11 @@ nav img {
     display: flex;
     justify-content: space-between;
     padding: 3.5% 3.5%;
+    margin-bottom: 4%;
 }
 
 .divAvaliacao img {
-    height: 9vh;
+    height: 80px;
 
 }
 
@@ -397,13 +399,10 @@ footer > div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
-    background-color: rgba(0, 255, 255, 0.11);
 }
 
 footer aside {
     width: 400px;
-    background-color: rgba(255, 0, 0, 0.24);
 }
 .newsletter {
     margin-right: 2%;
