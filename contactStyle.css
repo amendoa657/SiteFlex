@@ -1,0 +1,390 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+body {
+}
+
+
+header {
+    background-image: url("Assets/banner/home-banner.jpg.webp");
+    height: 42vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header > section {
+    height: 78vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav {
+    height: 8vh;
+    background-color: rgba(0, 0, 0, 0.52);
+    display: flex;
+    padding: 0 8%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav img {
+    height: 3vh;
+}
+
+.elementosHeader {
+
+    width: 800px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elementosHeader ul {
+    width: 80%;
+}
+
+.elementosHeader li {
+    display: inline;
+    min-width: 15%;
+    margin-right: 40px;
+
+}
+
+
+.elementosHeader a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.botao {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    height: 4vh;
+    width: auto;
+    padding: 0 2%;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.divCima {
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divCima h1{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 1%;
+}
+
+.divCima h4 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.divCima i {
+    margin: 0 10px;
+}
+
+
+
+
+.sectionBranca {
+    width: 100%;
+    display: flex;
+    background-color: #f9f9ff;
+    padding: 0% 13%;
+    padding-top: 6%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionBranca h1 {
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.96);
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+
+.sectionBranca h2 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.96);
+    font-weight: 600;
+    margin-bottom: 7%;
+}
+
+.sectionBranca h6 {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.67);
+    transition: 0.3s;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact iframe {
+    width: 100%;
+    margin-bottom: 7%;
+}
+
+.divForm {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+}
+
+.divInfo{
+    width: 100%;
+    display: flex;
+    margin-bottom: 8%;
+}
+
+.divInfo > div {
+    margin-left: 10%;
+}
+
+.divInfo h2{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.divInfo h3{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+.formularios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.forms{
+    width: 360px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    margin-right: 40px;
+}
+
+.forms input {
+    width: 100%;
+    height: 4.5vh;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    padding-left: 4%;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 4.5%;
+    outline: none;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0.205);
+}
+
+.form{
+    width: 430px;
+    height: 25vh;
+    text-align: right;
+}
+
+.form input {
+    width: 100%;
+    height: 17vh;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    padding-left: 4%;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 9%;
+    outline: none;
+    color: rgba(0, 0, 0, 0.205);
+    vertical-align: top;
+}
+
+.form a {
+    line-height: 2.8;
+    width: 40%;
+    background-color: #fcdc00;
+}
+
+
+
+.botaoInstagram {
+    background-color: #fcdc00;
+    height: 6vh;
+    line-height: 4;
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+
+
+.imagensFinal {
+    width: 100%;
+    height: 98%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    background-color: #f9f9ff;
+    margin-top: auto;
+    overflow: hidden;
+
+}
+
+.imagensFinal img {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+
+}
+
+.divImagensFinal {
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.imagensFinal img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+footer {
+    width: 100%;
+    padding: 5% 0;
+    background-color: #04091e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer h1 {
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+footer h6 {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.67);
+    font-weight: 300;
+    margin-bottom: 8%;
+
+}
+
+footer > div {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+footer aside {
+    width: 400px;
+}
+
+footer i {
+    display: inline;
+    margin: 0 5px;
+}
+.newsletter {
+    margin-right: 2%;
+}
+
+.newsletter h6{
+    margin-bottom: 4%;
+}
+
+.inputFooter {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.inputFooter > input {
+    height: 40px;
+    width: 92%;
+    font-size: 14px;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.inputFooter > button {
+    height: 40px;
+    width: 8%;
+    font-size: 14px;
+    background-color: #fcdc00;
+    color: black;
+    border: none;
+    cursor: pointer;
+    line-height: normal;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.inputFooter i {
+    text-align: center;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
