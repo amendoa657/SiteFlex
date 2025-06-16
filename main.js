@@ -9,22 +9,22 @@ Array.from(radioGaleria).forEach((radio) => {
             Array.from(imagens).forEach((image) => {
                 
                 if(radio.classList.contains("radioAll")) {
-                    //image.style.display = "block";
-                    image.style.animation = "imagemAnimOut 0.1s forwards";
+                    image.style.display = "block";
+                    //image.style.animation = "imagemAnimOut 0.1s forwards";
         
                 } else if (radio.classList.contains("radioAprovado")) {
-                    //image.style.display = image.classList.contains("aprovado") ? "block" : "none";
-                    image.style.animation =  image.classList.contains("aprovado") ? "imagemAnimOut 0.1s forwards" : "imagemAnimIn 0.2s forwards";
+                    image.style.display = image.classList.contains("aprovado") ? "block" : "none";
+                    //image.style.animation =  image.classList.contains("aprovado") ? "imagemAnimOut 0.1s forwards" : "imagemAnimIn 0.2s forwards";
                 }
                 
                 
                 // Mostra só desaprovados
                 else if (radio.classList.contains("radioDesaprovado")) {
-                    //image.style.display = image.classList.contains("desaprovado") ? "block" : "none";
-                    image.style.animation =  image.classList.contains("desaprovado") ? "imagemAnimOut 0.1s forwards" : "imagemAnimIn 0.2s forwards";
+                    image.style.display = image.classList.contains("desaprovado") ? "block" : "none";
+                    //image.style.animation =  image.classList.contains("desaprovado") ? "imagemAnimOut 0.1s forwards" : "imagemAnimIn 0.2s forwards";
                 } else if (radio.classList.contains("radioNaoVisto")) {
-                    //image.style.display = image.classList.contains("naoVisto") ? "block" : "none";
-                    image.style.animation =  image.classList.contains("naoVisto") ? "imagemAnimOut 0.1s forwards" : "imagemAnimIn 0.2s forwards";
+                    image.style.display = image.classList.contains("naoVisto") ? "block" : "none";
+                    //image.style.animation =  image.classList.contains("naoVisto") ? "imagemAnimOut 0.1s forwards" : "imagemAnimIn 0.2s forwards";
                 }
                 
                
