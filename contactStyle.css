@@ -42,6 +42,7 @@ nav img {
     height: 3vh;
 }
 
+
 .elementosHeader {
 
     width: 800px;
@@ -53,6 +54,7 @@ nav img {
 
 .elementosHeader ul {
     width: 80%;
+    height: 100%;
     position: relative;
 }
 
@@ -123,6 +125,7 @@ nav img {
     bottom: -119px;
     opacity: 1;
 }
+
 
 
 .botao {

@@ -44,6 +44,7 @@ nav img {
     height: 3vh;
 }
 
+
 .elementosHeader {
 
     width: 800px;
@@ -149,6 +150,7 @@ nav img {
 }
 
 .divTitulo h1 {
+    color: white;
     font-weight: 600;
     font-size: 60px;
     margin: 0 1%;
@@ -159,6 +161,7 @@ nav img {
 }
 
 .divTitulo h4 {
+    color: white;
     font-weight: 300;
     font-size: 16px;
     line-height: 1.7;
@@ -210,12 +213,14 @@ nav img {
 }
 
 .beneficios h1 {
+    color: white;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 2%;
 }
 
 .beneficios h4 {
+    color: white;
     border-top: 1px solid white;
     font-size: 14px;
     font-weight: 300;
@@ -341,6 +346,34 @@ nav img {
     margin-left: 6%;
 }
 
+.seletorPag {
+    width: 40%;
+    height: 3.5vh;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seletorPag a {
+    color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 14%;
+    line-height: 2.3;
+    font-weight: 400;
+}
+
+.botaoSeletor {
+    color: white;
+    background-color: #fcdc00;
+}
+
+
+
+
+
+
 .informacoes {
     width: 32%;
     padding: 2.5%;
@@ -368,7 +401,7 @@ nav img {
 .inputBlog {
     background-color: #fcdc00;
     width: 100%;
-    height: 4.5vh;
+    height: 8vh;
     border-radius: 43px;
     border: none;
     outline: none;
@@ -447,6 +480,106 @@ nav img {
 .imagemNada {
     width: 100%;
 }
+
+.textoRiscado {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px dotted rgba(199, 199, 199, 0.39);
+    padding-bottom: 3%;
+    margin-bottom: 6%;
+}
+
+.textoRiscado h4 {
+    color: #8e8e8e;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.newsletter {
+    text-align: center;
+}
+
+.newsletter h4 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 300;
+    margin-bottom: 2%;
+}
+
+.newsletter h5{
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+.inputDiretaBlog {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-bottom: 4%;
+}
+
+.inputDiretaBlog > input {
+    height: 40px;
+    width: 65%;
+    font-size: 12px;
+    padding-left: 12%;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.inputDiretaBlog > button {
+    font-weight: 500;
+    height: 40px;
+    width: 35%;
+    font-size: 12px;
+    background-color: #fcdc00;
+    text-transform: none;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    line-height: normal;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.inputDiretaBlog i {
+    color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tags {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+.botaoTag {
+    background-color: #ffffff;
+    height: 3vh;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    line-height: 2.3;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.78);
+    text-decoration: none;
+    font-weight: 300;
+    padding: 0 4%;
+    margin-right: 2%;
+    margin-bottom: 2.5%;
+}
+
+
+
 
 
 
@@ -567,6 +700,9 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+footer i,svg {
+    color: white;
 }
 
 footer h1 {

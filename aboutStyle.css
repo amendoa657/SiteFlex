@@ -53,13 +53,14 @@ nav img {
 
 .elementosHeader ul {
     width: 80%;
+    height: 100%;
     position: relative;
 }
 
 .elementosHeader li {
     display: inline;
     min-width: 15%;
-    margin-right: 40px; 
+    margin-right: 40px;
 
 }
 
@@ -192,7 +193,7 @@ nav img {
     flex-direction: column;
     text-align: center;
     padding: 6% 11%;
-    /*box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.582);*/
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.582);
 }
 
 .about h1 {

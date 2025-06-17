@@ -270,14 +270,28 @@ nav img {
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
+    width: 60%;
+    color: white;
+    transition: 0.5s;
+}
+
+.absoluteGaleria {
+    width: 70%;
+    text-align: center;
     position: absolute;
     bottom: 14%;
     left: 50%;
     right: 50%;
     transform: translate(-50%,-50%);
     z-index: 99;
-    width: 60%;
-    color: white;
+    transition: 0.5s;
+}
+
+.absoluteGaleria i {
+    display: block;
+    font-size: 20px;
+    margin-top: 3%;
+    opacity: 0;
     transition: 0.5s;
 }
 
@@ -285,8 +299,12 @@ nav img {
     filter: brightness(60%);
 }
 
-.imagemGaleria:hover .botaoImagem{
+.imagemGaleria:hover .absoluteGaleria{
     bottom: 40%;
+}
+
+.imagemGaleria:hover .absoluteGaleria i {
+    opacity: 1;
 }
 
 
